@@ -1,14 +1,17 @@
 # Brute Force Solution to NYT Digits
 
-Do you want to check how your solution to [Digits](https://www.nytimes.com/games/digits) compares to all the possible combinations?
+Do you want to check how your solution to [Digits](https://www.nytimes.com/games/digits) compares to all the possible solutions?
 
-This Python script calculates all the possible combinations and returns
-1) All number operations combinations that achieve a number, shortest first
-2) How many valid combinations exist
+This Python script calculates all the possible solutions and returns
+1) All solutions that achieve the target number, those with the smallest number of operations being shown first (if you are interested in finding the shortest solution(s))
+2) How many valid solutions exist
 
 It runs under a second on my computer, probably a few seconds on older hardware.
 
 You just need Python 3.6+ and you're in business.
+## Usage
+
+Update the 'num_list' and 'target' variables with your number list and target value respectively
 
 ## Reading the output
 
